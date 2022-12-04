@@ -1,0 +1,69 @@
+
+<form class="employee-form" autocomplete="off" [formGroup]="runForm" (ngSubmit)="submitForm()">
+    <div class="form-floating mb-3">
+        <label for="location">Location</label>
+        <input class="form-control" type="text" id="location" formControlName="location" placeholder="Location" required>
+    </div>
+
+    <div class="form-floating mb-3">
+        <label for="distance">Distance</label>
+        <input class="form-control" type="text" formControlName="distance" placeholder="Distance" required>
+    </div>
+
+    <div class="form-floating mb-3">
+        <label for="pace">Pace</label>
+        <input class="form-control" type="text" formControlName="pace" placeholder="Pace" required>
+      </div>
+      
+      <div class="form-floating mb-3">
+        <label for="elevation">Elevation</label>
+        <input class="form-control" type="text" formControlName="elevation" placeholder="Elevation" required>
+      </div>
+      
+      <div class="form-floating mb-3">
+        <label for="calories">Calories</label>
+        <input class="form-control" type="text" formControlName="calories" placeholder="Calories" required>
+      </div>
+      
+      <div class="form-floating mb-3">
+        <label for="heart_rate">Heart Rate</label>
+        <input class="form-control" type="text" formControlName="heart_rate" placeholder="Heart Rate" required>
+      </div>
+      
+      <div class="form-floating mb-3">
+        <label for="first_mile">First Mile</label>
+        <input class="form-control" type="text" formControlName="first_mile" placeholder="First Mile" required>
+      </div>
+      
+      <div class="form-floating mb-3">
+        <label for="second_mile">Second Mile</label>
+        <input class="form-control" type="text" formControlName="second_mile" placeholder="Second Mile" required>
+      </div>
+      
+      <div class="form-floating mb-3">
+        <label for="third_mile">Third Mile</label>
+        <input class="form-control" type="text" formControlName="third_mile" placeholder="Third Mile" required>
+      </div>
+      
+      <div class="form-floating mb-3">
+        <label for="fourth_mile">Fourth Mile</label>
+        <input class="form-control" type="text" formControlName="fourth_mile" placeholder="Fourth Mile" required>
+      </div>
+      
+      <div class="form-floating mb-3">
+        <label for="fifth_mile">Fifth Mile</label>
+        <input class="form-control" type="text" formControlName="fifth_mile" placeholder="Fifth Mile">
+      </div>
+      
+      <div class="form-floating mb-3">
+        <label for="sixth_mile">Sixth Mile</label>
+        <input class="form-control" type="text" formControlName="sixth_mile" placeholder="Sixth Mile">
+      </div>
+      
+      <div class="form-floating mb-3">
+        <label for="notes">Notes</label>
+        <input class="form-control" type="text" formControlName="notes" placeholder="Notes" required>
+      </div>      
+
+    <button class="btn btn-primary" type="submit">Add</button>
+  </form>
